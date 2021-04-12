@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(135deg, 	#e6abeb 0%, #abebe6 100%)
+}
+
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('./SEGA.woff') format('woff');
+    }
+
+h1 {
+    color:#e469f0;
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    height: 100%;
+  }
+  body{
+    min-height: 100%;
+  }
+
+.cardBack {
+  background-color: #abd0eb;
+}
